@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test2s",
+  "info": {
+    "singularName": "test2",
+    "pluralName": "test2s",
+    "displayName": "test2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "review": {
+      "type": "string"
+    },
+    "reviewer": {
+      "type": "richtext"
+    },
+    "test": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::test.test",
+      "inversedBy": "test_2s"
+    }
+  }
+}
