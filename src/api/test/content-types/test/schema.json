@@ -4,7 +4,8 @@
   "info": {
     "singularName": "test",
     "pluralName": "tests",
-    "displayName": "test"
+    "displayName": "test",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,11 @@
       "relation": "oneToMany",
       "target": "api::test2.test2",
       "mappedBy": "test"
+    },
+    "pleasework": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::pleasework.pleasework"
     }
   }
 }

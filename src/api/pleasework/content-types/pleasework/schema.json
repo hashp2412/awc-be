@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pleaseworks",
+  "info": {
+    "singularName": "pleasework",
+    "pluralName": "pleaseworks",
+    "displayName": "pleasework"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jai_ganesh": {
+      "type": "text"
+    }
+  }
+}
