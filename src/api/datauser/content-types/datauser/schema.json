@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "datausers",
+  "info": {
+    "singularName": "datauser",
+    "pluralName": "datausers",
+    "displayName": "datauser",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stream": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string"
+    },
+    "userid": {
+      "type": "string"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}
