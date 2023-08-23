@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_common_navbars",
+  "info": {
+    "displayName": "navbar",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nav_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.nav-item"
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "Overview",
+        "Courses",
+        "Admission",
+        "Placement",
+        "Common"
+      ]
+    }
+  }
+}

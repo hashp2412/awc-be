@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "singularName": "test",
+    "pluralName": "tests",
+    "displayName": "test",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "college_name": {
+      "type": "uid"
+    },
+    "page_data": {
+      "type": "dynamiczone",
+      "components": [
+        "overview.overview-content",
+        "common.navbar",
+        "table.row",
+        "table.table-end",
+        "table.table-start",
+        "table.table"
+      ]
+    }
+  }
+}

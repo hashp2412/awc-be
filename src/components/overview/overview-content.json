@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_overview_overview_contents",
+  "info": {
+    "displayName": "overview_content",
+    "icon": "feather",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "writer_name": {
+      "type": "string"
+    },
+    "overview_text": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "Overview",
+        "Courses",
+        "Admission",
+        "Placement",
+        "Common"
+      ]
+    },
+    "table": {
+      "displayName": "table",
+      "type": "component",
+      "repeatable": true,
+      "component": "table.table"
+    }
+  }
+}

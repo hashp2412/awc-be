@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_table_rows",
+  "info": {
+    "displayName": "row",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "col": {
+      "displayName": "column",
+      "type": "component",
+      "repeatable": true,
+      "component": "table.column"
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "Overview",
+        "Courses",
+        "Admission",
+        "Placement",
+        "Common"
+      ]
+    }
+  }
+}

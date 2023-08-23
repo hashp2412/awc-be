@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_table_table_ends",
+  "info": {
+    "displayName": "table_end"
+  },
+  "options": {},
+  "attributes": {
+    "do_not_edit": {
+      "type": "string",
+      "default": "this marks the end of a table."
+    }
+  }
+}

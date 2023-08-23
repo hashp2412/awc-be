@@ -4,7 +4,8 @@
   "info": {
     "singularName": "college",
     "pluralName": "colleges",
-    "displayName": "college"
+    "displayName": "college",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

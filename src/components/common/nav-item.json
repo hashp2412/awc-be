@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_common_nav_items",
+  "info": {
+    "displayName": "nav_item",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
