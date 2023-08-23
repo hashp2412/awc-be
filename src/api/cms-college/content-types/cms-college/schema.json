@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cms_colleges",
+  "info": {
+    "singularName": "cms-college",
+    "pluralName": "cms-colleges",
+    "displayName": "CMS-college",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "college_name": {
+      "type": "uid"
+    },
+    "page_data": {
+      "type": "dynamiczone",
+      "components": [
+        "common.navbar",
+        "course.courses",
+        "overview.overview-content",
+        "table.table"
+      ]
+    },
+    "location": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "approved_by": {
+      "type": "string",
+      "default": "null"
+    }
+  }
+}

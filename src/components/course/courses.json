@@ -1,0 +1,27 @@
+{
+    "collectionName": "components_course_addcourses",
+    "info": {
+      "displayName": "courses",
+      "description": ""
+    },
+    "options": {},
+    "attributes": {
+      "course": {
+        "displayName": "course",
+        "type": "component",
+        "repeatable": true,
+        "component": "course.course"
+      },
+      "section": {
+        "type": "enumeration",
+        "enum": [
+          "Overview",
+          "Courses",
+          "Admission",
+          "Placement",
+          "Common"
+        ]
+      }
+    }
+  }
+  

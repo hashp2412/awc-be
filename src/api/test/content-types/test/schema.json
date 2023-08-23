@@ -20,10 +20,8 @@
       "components": [
         "overview.overview-content",
         "common.navbar",
-        "table.row",
-        "table.table-end",
-        "table.table-start",
-        "table.table"
+        "table.table",
+        "course.courses"
       ]
     }
   }

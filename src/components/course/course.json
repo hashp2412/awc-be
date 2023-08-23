@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_course_courses",
+  "info": {
+    "displayName": "Course",
+    "icon": "seed",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "course_name": {
+      "type": "string"
+    },
+    "total_intake": {
+      "type": "string"
+    },
+    "annual_fees": {
+      "type": "string"
+    },
+    "study_mode": {
+      "type": "string",
+      "default": "Regular"
+    },
+    "exam_accepted": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "average_fees": {
+      "type": "string"
+    },
+    "specialisation": {
+      "displayName": "specialisation",
+      "type": "component",
+      "repeatable": true,
+      "component": "course.specialisation"
+    }
+  }
+}

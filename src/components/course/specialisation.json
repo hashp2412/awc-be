@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_course_specialisations",
+  "info": {
+    "displayName": "specialisation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
