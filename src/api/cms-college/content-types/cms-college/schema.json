@@ -33,16 +33,6 @@
     "approved_by": {
       "type": "string",
       "default": "null"
-    },
-    "college_banner": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
     }
   }
 }
