@@ -20,8 +20,9 @@
       "components": [
         "common.navbar",
         "course.courses",
-        "overview.overview-content",
-        "table.table"
+        "table.table",
+        "common.gallery",
+        "common.new-overview"
       ]
     },
     "location": {

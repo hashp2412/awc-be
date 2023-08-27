@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_common_galleries",
+  "info": {
+    "displayName": "Gallery",
+    "icon": "landscape",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "Overview",
+        "Courses",
+        "Admission",
+        "Placement"
+      ]
+    }
+  }
+}

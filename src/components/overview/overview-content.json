@@ -15,7 +15,7 @@
       "type": "richtext"
     },
     "date": {
-      "type": "datetime"
+      "type": "date"
     },
     "section": {
       "type": "enumeration",

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_common_new_overviews",
+  "info": {
+    "displayName": "new_overview",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "overview_text": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "Overview",
+        "Admission",
+        "Placement",
+        "Courses"
+      ]
+    },
+    "writer_name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}
