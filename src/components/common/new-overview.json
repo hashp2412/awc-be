@@ -23,7 +23,8 @@
       ]
     },
     "writer_name": {
-      "type": "string"
+      "type": "string",
+      "default": "null"
     },
     "date": {
       "type": "date"

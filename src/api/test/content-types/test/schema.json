@@ -4,25 +4,25 @@
   "info": {
     "singularName": "test",
     "pluralName": "tests",
-    "displayName": "test",
-    "description": ""
+    "displayName": "test"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "college_name": {
-      "type": "uid"
+    "harsh": {
+      "type": "string"
     },
-    "page_data": {
-      "type": "dynamiczone",
-      "components": [
-        "overview.overview-content",
-        "common.navbar",
-        "table.table",
-        "course.courses"
-      ]
+    "section": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

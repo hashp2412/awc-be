@@ -22,7 +22,8 @@
         "course.courses",
         "table.table",
         "common.gallery",
-        "common.new-overview"
+        "common.new-overview",
+        "common.google-ads"
       ]
     },
     "location": {
@@ -36,14 +37,26 @@
       "default": "null"
     },
     "banner": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
+      ]
+    },
+    "logo": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
