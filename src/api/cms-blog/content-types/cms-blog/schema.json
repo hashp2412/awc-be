@@ -4,7 +4,8 @@
   "info": {
     "singularName": "cms-blog",
     "pluralName": "cms-blogs",
-    "displayName": "cms-blog"
+    "displayName": "cms-blog",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -31,17 +32,18 @@
       "type": "string"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "filter": {
       "type": "string"
