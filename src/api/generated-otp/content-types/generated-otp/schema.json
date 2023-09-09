@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "generated_otps",
+  "info": {
+    "singularName": "generated-otp",
+    "pluralName": "generated-otps",
+    "displayName": "generated-otp"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "otp": {
+      "type": "string"
+    }
+  }
+}

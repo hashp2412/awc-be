@@ -13,14 +13,7 @@
         "component": "course.course"
       },
       "section": {
-        "type": "enumeration",
-        "enum": [
-          "Overview",
-          "Courses",
-          "Admission",
-          "Placement",
-          "Common"
-        ]
+        "type": "text"
       }
     }
   }

@@ -1,18 +1,13 @@
 {
   "collectionName": "components_common_google_ads",
   "info": {
-    "displayName": "GoogleAds"
+    "displayName": "GoogleAds",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "section": {
-      "type": "enumeration",
-      "enum": [
-        "Overview",
-        "Admission",
-        "Placement",
-        "Courses"
-      ]
+      "type": "string"
     }
   }
 }

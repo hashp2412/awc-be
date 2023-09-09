@@ -13,14 +13,7 @@
       "component": "common.nav-item"
     },
     "section": {
-      "type": "enumeration",
-      "enum": [
-        "Overview",
-        "Courses",
-        "Admission",
-        "Placement",
-        "Common"
-      ]
+      "type": "string"
     }
   }
 }

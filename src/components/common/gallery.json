@@ -19,13 +19,7 @@
       ]
     },
     "section": {
-      "type": "enumeration",
-      "enum": [
-        "Overview",
-        "Courses",
-        "Admission",
-        "Placement"
-      ]
+      "type": "string"
     }
   }
 }

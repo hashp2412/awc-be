@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "admissions",
+  "info": {
+    "singularName": "admission",
+    "pluralName": "admissions",
+    "displayName": "Admission"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "college": {
+      "type": "string"
+    },
+    "stream": {
+      "type": "string"
+    },
+    "responded": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
