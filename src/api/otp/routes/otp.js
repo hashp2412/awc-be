@@ -27,5 +27,14 @@ module.exports = {
         middlewares: [],
       },
     },
+    {
+      method: "POST",
+      path: "/otp/checkEmail",
+      handler: "otp.isEmailAvailable",
+      config: {
+        policies: [],
+        middlewares: [],
+      },
+    },
   ],
 };
