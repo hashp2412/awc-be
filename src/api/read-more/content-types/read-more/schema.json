@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "read_mores",
+  "info": {
+    "singularName": "read-more",
+    "pluralName": "read-mores",
+    "displayName": "read-more"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "uid"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}
