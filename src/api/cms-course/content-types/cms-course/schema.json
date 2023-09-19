@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cms_courses",
+  "info": {
+    "singularName": "cms-course",
+    "pluralName": "cms-courses",
+    "displayName": "CMS-course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "course_name": {
+      "type": "uid"
+    },
+    "page_data": {
+      "type": "dynamiczone",
+      "components": [
+        "common.gallery",
+        "common.google-ads",
+        "common.navbar",
+        "common.new-overview",
+        "common.faq"
+      ]
+    },
+    "average_fees": {
+      "type": "string"
+    },
+    "is_top_course": {
+      "type": "boolean",
+      "default": false
+    },
+    "duration": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Bachelors",
+        "Masters",
+        "Doctorate",
+        "Diploma",
+        "Certification"
+      ]
+    }
+  }
+}

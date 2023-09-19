@@ -23,7 +23,8 @@
         "table.table",
         "common.gallery",
         "common.new-overview",
-        "common.google-ads"
+        "common.google-ads",
+        "common.faq"
       ]
     },
     "location": {
@@ -57,6 +58,13 @@
         "videos",
         "audios"
       ]
+    },
+    "is_top_college": {
+      "type": "boolean",
+      "default": false
+    },
+    "top_college_category": {
+      "type": "string"
     }
   }
 }
