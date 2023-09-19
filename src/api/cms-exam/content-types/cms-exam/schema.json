@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cms_exams",
+  "info": {
+    "singularName": "cms-exam",
+    "pluralName": "cms-exams",
+    "displayName": "CMS-exam"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "exam_name": {
+      "type": "uid"
+    },
+    "page_data": {
+      "type": "dynamiczone",
+      "components": [
+        "common.faq",
+        "common.gallery",
+        "common.google-ads",
+        "common.nav-item",
+        "common.navbar",
+        "common.new-overview",
+        "course.course",
+        "course.courses",
+        "course.specialisation"
+      ]
+    },
+    "exam_mode": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
