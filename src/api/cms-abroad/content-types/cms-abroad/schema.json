@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cms_abroads",
+  "info": {
+    "singularName": "cms-abroad",
+    "pluralName": "cms-abroads",
+    "displayName": "CMS-abroad"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "college_name": {
+      "type": "uid"
+    },
+    "location": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "scholarship": {
+      "type": "boolean",
+      "default": false
+    },
+    "average_fees": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "page_data": {
+      "type": "dynamiczone",
+      "components": [
+        "common.faq",
+        "common.navbar",
+        "common.new-overview",
+        "common.google-ads",
+        "common.gallery",
+        "course.course"
+      ]
+    }
+  }
+}
