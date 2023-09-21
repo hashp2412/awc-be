@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "end_to_end_forms",
+  "info": {
+    "singularName": "end-to-end-form",
+    "pluralName": "end-to-end-forms",
+    "displayName": "end-to-end-form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "mothername": {
+      "type": "string"
+    },
+    "fathername": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "marks_10th": {
+      "type": "string"
+    },
+    "marks_12th": {
+      "type": "string"
+    },
+    "board_10th": {
+      "type": "string"
+    },
+    "board_12th": {
+      "type": "string"
+    },
+    "stream": {
+      "type": "string"
+    },
+    "course": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "exams": {
+      "type": "json"
+    }
+  }
+}
