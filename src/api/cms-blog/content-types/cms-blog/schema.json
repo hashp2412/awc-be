@@ -54,7 +54,13 @@
     "canonical": {
       "type": "string"
     },
-    "icon": {
+    "og_title": {
+      "type": "string"
+    },
+    "og_url": {
+      "type": "string"
+    },
+    "og_image": {
       "allowedTypes": [
         "images",
         "files",
@@ -64,7 +70,10 @@
       "type": "media",
       "multiple": false
     },
-    "shortcuticon": {
+    "og_description": {
+      "type": "string"
+    },
+    "og_image_alt": {
       "allowedTypes": [
         "images",
         "files",
@@ -73,6 +82,9 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "og_image_alt_text": {
+      "type": "string"
     }
   }
 }

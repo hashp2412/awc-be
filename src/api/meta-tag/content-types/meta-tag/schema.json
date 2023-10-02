@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meta_tags",
+  "info": {
+    "singularName": "meta-tag",
+    "pluralName": "meta-tags",
+    "displayName": "meta_tag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "canonical": {
+      "type": "string"
+    },
+    "og": {
+      "type": "string"
+    },
+    "og_title": {
+      "type": "string"
+    },
+    "og_url": {
+      "type": "string"
+    },
+    "og_description": {
+      "type": "string"
+    },
+    "og_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "og_image_alt": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "og_image_alt_text": {
+      "type": "string"
+    },
+    "page_url": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}
