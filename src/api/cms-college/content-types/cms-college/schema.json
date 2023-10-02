@@ -95,7 +95,7 @@
         "audios"
       ],
       "type": "media",
-      "multiple": true
+      "multiple": false
     },
     "og_image_alt": {
       "allowedTypes": [
