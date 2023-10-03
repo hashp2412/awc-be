@@ -46,6 +46,49 @@
       ]
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "banner": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "canonical": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "og_title": {
+      "type": "string"
+    },
+    "og_url": {
+      "type": "string"
+    },
+    "og_description": {
+      "type": "string"
+    },
+    "og_image": {
       "allowedTypes": [
         "images",
         "files",
@@ -55,7 +98,7 @@
       "type": "media",
       "multiple": false
     },
-    "banner": {
+    "og_image_alt": {
       "allowedTypes": [
         "images",
         "files",
@@ -63,7 +106,10 @@
         "audios"
       ],
       "type": "media",
-      "multiple": true
+      "multiple": false
+    },
+    "og_image_alt_text": {
+      "type": "string"
     }
   }
 }

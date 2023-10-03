@@ -4,7 +4,8 @@
   "info": {
     "singularName": "cms-abroad",
     "pluralName": "cms-abroads",
-    "displayName": "CMS-abroad"
+    "displayName": "CMS-abroad",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -28,24 +29,26 @@
       "type": "string"
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "banner": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "page_data": {
       "type": "dynamiczone",
@@ -57,6 +60,53 @@
         "common.gallery",
         "course.course"
       ]
+    },
+    "titl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "canonical": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "og_title": {
+      "type": "string"
+    },
+    "og_url": {
+      "type": "string"
+    },
+    "og_description": {
+      "type": "string"
+    },
+    "og_image_alt_text": {
+      "type": "string"
+    },
+    "og_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "og_image_alt": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
