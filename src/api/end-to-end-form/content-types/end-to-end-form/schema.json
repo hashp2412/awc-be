@@ -4,7 +4,8 @@
   "info": {
     "singularName": "end-to-end-form",
     "pluralName": "end-to-end-forms",
-    "displayName": "end-to-end-form"
+    "displayName": "end-to-end-form",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -49,6 +50,12 @@
     },
     "exams": {
       "type": "json"
+    },
+    "desired_college": {
+      "type": "string"
+    },
+    "desired_year": {
+      "type": "string"
     }
   }
 }
