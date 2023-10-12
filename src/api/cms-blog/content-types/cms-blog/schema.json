@@ -45,9 +45,6 @@
         "audios"
       ]
     },
-    "filter": {
-      "type": "string"
-    },
     "keywords": {
       "type": "string"
     },
@@ -61,30 +58,43 @@
       "type": "string"
     },
     "og_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "og_description": {
       "type": "string"
     },
     "og_image_alt": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "og_image_alt_text": {
       "type": "string"
+    },
+    "filter": {
+      "type": "enumeration",
+      "enum": [
+        "featurednews",
+        "exams",
+        "colleges",
+        "counselling",
+        "latestnews",
+        "educationnews"
+      ]
     }
   }
 }
