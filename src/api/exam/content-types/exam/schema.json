@@ -4,15 +4,34 @@
   "info": {
     "singularName": "exam",
     "pluralName": "exams",
-    "displayName": "Exam"
+    "displayName": "Exam",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "exam_data": {
-      "type": "json"
+    "exam_name": {
+      "type": "string"
+    },
+    "exam_mode": {
+      "type": "string"
+    },
+    "exam_full_form": {
+      "type": "string"
+    },
+    "application_form_date": {
+      "type": "string"
+    },
+    "exam_date": {
+      "type": "string"
+    },
+    "result_date": {
+      "type": "string"
+    },
+    "exam_category": {
+      "type": "string"
     }
   }
 }
