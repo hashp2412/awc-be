@@ -12,8 +12,59 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "college_data": {
-      "type": "json"
+    "college_name": {
+      "type": "string"
+    },
+    "catagories": {
+      "type": "string"
+    },
+    "genders_accepted": {
+      "type": "string"
+    },
+    "campus_size": {
+      "type": "string"
+    },
+    "total_students_enrollment": {
+      "type": "string"
+    },
+    "total_faculty": {
+      "type": "string"
+    },
+    "established_year": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "string"
+    },
+    "university": {
+      "type": "string"
+    },
+    "course_name": {
+      "type": "string"
+    },
+    "facilities": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "college_type": {
+      "type": "string"
+    },
+    "average_fees": {
+      "type": "string"
+    },
+    "annual_intake": {
+      "type": "string"
+    },
+    "course_type": {
+      "type": "string"
     }
   }
 }
