@@ -12,8 +12,29 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "college_data": {
-      "type": "json"
+    "college_name": {
+      "type": "string"
+    },
+    "establishment_year": {
+      "type": "string"
+    },
+    "college_type": {
+      "type": "string"
+    },
+    "number_of_propgrams": {
+      "type": "string"
+    },
+    "scholarship_available": {
+      "type": "string"
+    },
+    "fee_range": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
     }
   }
 }
