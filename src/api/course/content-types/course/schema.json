@@ -4,15 +4,25 @@
   "info": {
     "singularName": "course",
     "pluralName": "courses",
-    "displayName": "Course"
+    "displayName": "Course",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "course_data": {
-      "type": "json"
+    "course_name": {
+      "type": "string"
+    },
+    "course_duration": {
+      "type": "string"
+    },
+    "average_fees": {
+      "type": "string"
+    },
+    "course_image": {
+      "type": "string"
     }
   }
 }
